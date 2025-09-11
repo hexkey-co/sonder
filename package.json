@@ -1,0 +1,45 @@
+{
+  "name": "sonder",
+  "displayName": "Sonder",
+  "description": "Yet another dark theme for VSCode.",
+  "publisher": "jmg-duarte",
+  "version": "0.22.0",
+  "icon": "static/logo/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmg-duarte/sonder"
+  },
+  "homepage": "https://github.com/jmg-duarte/sonder",
+  "bugs": {
+    "url": "https://github.com/jmg-duarte/sonder/issues"
+  },
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sonder",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sonder-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^2.21.1"
+  },
+  "configurationDefaults": {
+    "editor.semanticHighlighting.enabled": true
+  },
+  "scripts": {
+    "package": "vsce package",
+    "login": "vsce login jmg-duarte",
+    "publish": "vsce publish && git push && git push --tags",
+    "patch": "npm version patch -m 'release: %s'",
+    "minor": "npm version minor -m 'release: %s'",
+    "major": "npm version major -m 'release: %s'"
+  }
+}
