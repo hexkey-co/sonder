@@ -50,7 +50,7 @@
     "editor.findRangeHighlightBackground": "#31313173",
     "editor.foreground": "#e3e3e3",
     "editor.hoverHighlightBackground": "#034661d0",
-    "editor.lineHighlightBackground": "#313131",
+    "editor.lineHighlightBackground": "#2e2e2e",
     "editor.rangeHighlightBackground": "#313131f0",
     "editor.selectionBackground": "#033c52",
     "editor.selectionHighlightBorder": "#0F5147",
@@ -89,7 +89,7 @@
     "extensionButton.separator": "#e3e3e3",
     "focusBorder": "#2b2b2b",
     "foreground": "#e3e3e3",
-    "git.blame.editorDecorationForeground": "#909090a0",
+    "git.blame.editorDecorationForeground": "#9a9a9aa0",
     "gitDecoration.modifiedResourceForeground": "#F9E79F",
     "icon.foreground": "#e3e3e3",
     "input.background": "#252526",
@@ -182,7 +182,7 @@
     // Gitlens specific (do not sort with the rest)
     "gitlens.gutterBackgroundColor": "#1e1e1e00", // Making it transparent actually yields better results
     "gitlens.gutterForegroundColor": "#e3e3e3",
-    "gitlens.trailingLineForegroundColor": "#909090a0"
+    "gitlens.trailingLineForegroundColor": "#9a9a9aa0"
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
