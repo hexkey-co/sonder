@@ -3,7 +3,7 @@
   "displayName": "Sonder",
   "description": "Yet another dark theme for VSCode.",
   "publisher": "jmg-duarte",
-  "version": "0.22.0",
+  "version": "0.0.1",
   "icon": "static/logo/logo.png",
   "repository": {
     "type": "git",
