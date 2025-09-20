@@ -911,6 +911,17 @@
       "settings": {
         "foreground": "#82FF74"
       }
+    },
+    {
+      "name": "Search: Line Number",
+      "scope": [
+        "meta.resultLinePrefix.lineNumber.search",
+        "meta.resultLinePrefix.matchLinePrefix.search"
+      ],
+      "settings": {
+        "foreground": "#e3e3e3a0",
+        "fontStyle": ""
+      }
     }
   ]
 }
