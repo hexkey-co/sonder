@@ -7,11 +7,11 @@
   "icon": "static/logo/logo.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jmg-duarte/sonder"
+    "url": "https://github.com/hexkey-co/sonder"
   },
-  "homepage": "https://github.com/jmg-duarte/sonder",
+  "homepage": "https://github.com/hexkey-co/sonder",
   "bugs": {
-    "url": "https://github.com/jmg-duarte/sonder/issues"
+    "url": "https://github.com/hexkey-co/sonder/issues"
   },
   "engines": {
     "vscode": "^1.65.0"
